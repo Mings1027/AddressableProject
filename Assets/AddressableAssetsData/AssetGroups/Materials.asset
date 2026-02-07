@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Materials
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Materials
+  m_GUID: 69219960db6ce44ba9ab69faf5093ef5
+  m_SerializeEntries:
+  - m_GUID: 0b09ac1ceec5d46ce8c7fb96c3c115f7
+    m_Address: Assets/Materials/New Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Material
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b06fcccfd89454ef8b5255c01326f3d0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fadbf7c2cdf1942e18e9ce11fbce6e6d, type: 2}
+    - {fileID: 11400000, guid: fdb4da3afec5c4bcfac53ad2ebd2b5e0, type: 2}
