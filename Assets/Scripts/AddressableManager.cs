@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class AddressableManager : MonoBehaviour
 {
+    [SerializeField] private AssetLabelReference assetLabelReference;
     [SerializeField] private AssetReferenceGameObject cubeObj;
     [SerializeField] private AssetReferenceAtlasedSprite sprite;
     [SerializeField] private Image image;
@@ -46,6 +47,7 @@ public class AddressableManager : MonoBehaviour
         {
             Debug.Log("Isvalid");
         }
+
         sprite.LoadAssetAsync().Completed += img => { image.sprite = img.Result; };
     }
 

@@ -745,6 +745,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &856358784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856358786}
+  - component: {fileID: 856358785}
+  m_Layer: 0
+  m_Name: MonsterResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &856358785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856358784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb80c07d8c0746afae582e8839921bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterResourceManager
+--- !u!4 &856358786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856358784}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870343395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7b0167077f40a681fb131f2b352856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotateObjects
+  speed: 10
 --- !u!136 &1278626627
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1695,5 +1740,6 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 14608193}
   - {fileID: 870343398}
-  - {fileID: 1784514390}
   - {fileID: 1278626630}
+  - {fileID: 1784514390}
+  - {fileID: 856358786}
