@@ -18,7 +18,8 @@ MonoBehaviour:
   - m_GUID: 1c9aea3a8bf8d46e68ebc8553cd8ae27
     m_Address: Assets/Atlas/New Sprite Atlas.spriteatlas
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2fa7a19d9e964326a0226e4d2580183
     m_Address: Assets/Sprites/Endfield.png

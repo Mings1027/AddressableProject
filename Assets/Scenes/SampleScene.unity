@@ -774,6 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb80c07d8c0746afae582e8839921bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonsterResourceManager
+  monsterDB: {fileID: 0}
 --- !u!4 &856358786
 Transform:
   m_ObjectHideFlags: 0
@@ -1170,7 +1171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7b0167077f40a681fb131f2b352856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotateObjects
-  speed: 10
+  speed: 100
 --- !u!136 &1278626627
 CapsuleCollider:
   m_ObjectHideFlags: 0
